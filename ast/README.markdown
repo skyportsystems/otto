@@ -1,6 +1,6 @@
 # ast
 --
-    import "github.com/robertkrimen/otto/ast"
+    import "github.com/skyportsystems/otto/ast"
 
 Package ast declares types representing a JavaScript AST.
 

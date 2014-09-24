@@ -1,13 +1,13 @@
 # otto
 --
-    import "github.com/robertkrimen/otto"
+    import "github.com/skyportsystems/otto"
 
 Package otto is a JavaScript parser and interpreter written natively in Go.
 
 http://godoc.org/github.com/robertkrimen/otto
 
     import (
-        "github.com/robertkrimen/otto"
+        "github.com/skyportsystems/otto"
     )
 
 Run something in the VM
@@ -111,9 +111,9 @@ Parse and return an AST
 ### otto
 
 You can run (Go) JavaScript from the commandline with:
-http://github.com/robertkrimen/otto/tree/master/otto
+http://github.com/skyportsystems/otto/tree/master/otto
 
-    $ go get -v github.com/robertkrimen/otto/otto
+    $ go get -v github.com/skyportsystems/otto/otto
 
 Run JavaScript by entering some source on stdin or by giving otto a filename:
 
@@ -125,13 +125,13 @@ Optionally include the JavaScript utility-belt library, underscore, with this
 import:
 
     import (
-    	"github.com/robertkrimen/otto"
-    	_ "github.com/robertkrimen/otto/underscore"
+    	"github.com/skyportsystems/otto"
+    	_ "github.com/skyportsystems/otto/underscore"
     )
 
     // Now every otto runtime will come loaded with underscore
 
-For more information: http://github.com/robertkrimen/otto/tree/master/underscore
+For more information: http://github.com/skyportsystems/otto/tree/master/underscore
 
 
 ### Caveat Emptor
@@ -178,7 +178,7 @@ the interrupt channel to do this:
         "os"
         "time"
 
-        "github.com/robertkrimen/otto"
+        "github.com/skyportsystems/otto"
     )
 
     var halt = errors.New("Stahp")

@@ -2,7 +2,7 @@
 Package parser implements a parser for JavaScript.
 
     import (
-        "github.com/robertkrimen/otto/parser"
+        "github.com/skyportsystems/otto/parser"
     )
 
 Parse and return an AST
@@ -39,9 +39,9 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/robertkrimen/otto/ast"
-	"github.com/robertkrimen/otto/file"
-	"github.com/robertkrimen/otto/token"
+	"github.com/skyportsystems/otto/ast"
+	"github.com/skyportsystems/otto/file"
+	"github.com/skyportsystems/otto/token"
 )
 
 // A Mode value is a set of flags (or 0). They control optional parser functionality.
