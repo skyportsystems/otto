@@ -1,0 +1,4 @@
+origin	git@github.com:skyportsystems/otto (fetch)
+origin	git@github.com:skyportsystems/otto (push)
+upstream	https://github.com/robertkrimen/otto.git (fetch)
+upstream	https://github.com/robertkrimen/otto.git (push)
